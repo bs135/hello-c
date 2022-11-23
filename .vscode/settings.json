@@ -1,0 +1,9 @@
+{
+    "cmake.configureOnOpen": false,
+    "files.associations": {
+        "*.h": "c",
+        "random": "c"
+    },
+    "C_Cpp.errorSquiggles": "Enabled",
+    "cSpell.words": []
+}
