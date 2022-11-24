@@ -1,5 +1,5 @@
 # app name
-PROGRAM = hello
+PROGRAM = hello-c
 
 # program source files
 SOURCE_FILES = $(shell find src -type f -name '*.c')
