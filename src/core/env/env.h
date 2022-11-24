@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-#define ENV_FILE_DEFAULT "/data/hello-world/.env"
+#define ENV_FILE_DEFAULT "/etc/hello-c/.env"
 
 char *env_redis_host();
 int env_redis_port();
