@@ -17,10 +17,16 @@ sudo apt install -y libjson-c-dev uuid-dev #libhiredis-dev libevent-dev
 
 ## build
 
+make all
+
 ```bash
 make
 
-# clean
+```
+
+clean
+
+```bash
 make clean
 
 ```
@@ -29,6 +35,6 @@ make clean
 
 ```bash
 
-./hello
+./hello-c
 
 ```
