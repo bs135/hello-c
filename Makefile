@@ -17,7 +17,7 @@ SOURCES = $(SOURCE_FILES)
 OBJECTS = $(patsubst %.c,%.o,$(SOURCES))
 
 # lib link flags
-LDFLAGS = -luuid -ljson-c #-lpthread
+LDFLAGS = -luuid -ljson-c -lpthread
 
 # target flags
 CXXFLAGS = -O0 -std=c11 -Wall -Wextra -fcommon #-ggdb
